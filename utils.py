@@ -17,4 +17,5 @@ from sklearn.model_selection import TimeSeriesSplit, cross_val_score
 
 # Data Loading and Preprocessing
 
-def load_data(filepath="d")
+def load_data(filepath="data/PRSA_data.csv"):
+    
