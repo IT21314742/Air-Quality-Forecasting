@@ -28,3 +28,4 @@ def load_data(filepath="data/PRSA_data.csv"):
     df["Datetime"] = pd.to_datetime(df[["year","month","day", "hour"]])
     return df
 
+# Feature Engineering
