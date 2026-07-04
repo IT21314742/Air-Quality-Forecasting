@@ -1,3 +1,4 @@
 """
 Air quality Forecasting - Utility Functions
-Beijing PM2.5 hourly air quality dataset (UCI)."""
+Beijing PM2.5 hourly air quality dataset (UCI). Target: pm2.5 (µg/m³, continuous).
+"""
