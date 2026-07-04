@@ -13,4 +13,4 @@ from sklearn.metrics import (
     r2_score,
     mean_absolute_percentage_error,
 )
-from sklearn.model_selection
+from sklearn.model_selection import TimeSeriesSplit
