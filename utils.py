@@ -24,4 +24,5 @@ def load_data(filepath="data/PRSA_data.csv"):
     The raw file stores the timestamp across four integer columns (year, month, day, hour). We combine them into a single 'Datetime' column so pandas can
     treat the data  as an ordered  time targets. 
     """
-    df = pd.read_csv
+    df = pd.read_csv(filepath)
+    
