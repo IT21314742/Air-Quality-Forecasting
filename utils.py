@@ -30,4 +30,4 @@ def load_data(filepath="data/PRSA_data.csv"):
 
 # Feature Engineering
 
-def 
+def create_features(df):
