@@ -25,4 +25,4 @@ def load_data(filepath="data/PRSA_data.csv"):
     treat the data  as an ordered  time targets. 
     """
     df = pd.read_csv(filepath)
-    df["Datetime"] = 
+    df["Datetime"] = pd.to_datetime(df[[]])
