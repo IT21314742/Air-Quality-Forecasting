@@ -22,5 +22,5 @@ def load_data(filepath="data/PRSA_data.csv"):
     load the rawBeijing PM2.5 hourly dataset and build a proper datetime index.
     
     The raw file stores the timestamp across four integer columns (year, month, day, hour). We combine them into a single 'Datetime' column so pandas can
-    treat the data 
+    treat the data  as an ordered 
     """
