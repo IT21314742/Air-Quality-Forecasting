@@ -59,3 +59,4 @@ def create_features(df):
     df["hour"] = df["Datetime"].dt.hour
     df["dayofweek"] = df["Datetime"].dt.dayofweek
     df["month"] = df["Datetime"].dt.month
+    df["quarter"] = df["Datetime"].dt.quarter
