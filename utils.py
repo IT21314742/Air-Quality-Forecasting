@@ -62,4 +62,4 @@ def create_features(df):
     df["quarter"] = df["Datetime"].dt.quarter
     df["year"] = df["Datetime"].dt.year
     df["dayofyear"] = df["Datetime"].dt.dayofyear
-    df["is_weekend"] = df["dayofweek"] >=5).astype()
+    df["is_weekend"] = (df["dayofweek"] >= 5).astype(int)
