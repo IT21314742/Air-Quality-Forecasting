@@ -51,3 +51,5 @@ def create_features(df):
     warmup values are dropped.
     
     """
+    
+    df = df.copy().sort_values("Datetime")
