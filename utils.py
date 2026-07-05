@@ -60,3 +60,4 @@ def create_features(df):
     df["dayofweek"] = df["Datetime"].dt.dayofweek
     df["month"] = df["Datetime"].dt.month
     df["quarter"] = df["Datetime"].dt.quarter
+    df["year"] = df["Datetime"].dt.year
