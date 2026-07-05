@@ -38,5 +38,9 @@ def create_features(df):
     
     Parameters
     ----------
+    df: pd.Dataframe with 'Datetime' (datetime64), 'pm2.5' (target) and the raw weather columns, sorted ascending by Datetime.
+    
+    Returns
+    ----------
     
     """
