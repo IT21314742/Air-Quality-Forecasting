@@ -34,5 +34,5 @@ def create_features(df):
     """
     Engineer calendar, lag, and rolling features from the sorted time series.
     
-    Calendar features capture deterministic seasonality ()
+    Calendar features capture deterministic seasonality (time-of-the-day, day-of-the-week, month, etc.). 
     """
