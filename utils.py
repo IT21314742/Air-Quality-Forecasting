@@ -42,5 +42,5 @@ def create_features(df):
     
     Returns
     ----------
-    
+    pd.dataframe with new feature columns; rows with NaN target or NaN lag/
     """
