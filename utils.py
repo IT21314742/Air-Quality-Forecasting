@@ -57,4 +57,4 @@ def create_features(df):
     
     # Calender features
     df["hour"] = df["Datetime"].dt.hour
-    
+    df["dayofweek"] = df["Datetime"].dt.dayofweek
