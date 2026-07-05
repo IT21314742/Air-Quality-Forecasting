@@ -65,5 +65,5 @@ def create_features(df):
     df["is_weekend"] = (df["dayofweek"] >= 5).astype(int)
     
     # Lag features - shift by lag length to avoid data leakage
-    df["lag_1"] = df["pm2.5"].shift(1)
+    df["lag_1"] = df["pm2.5"].shift(1)      # previous hour
     df["lag_2"] = df["pm2.5"].shift(24)
