@@ -34,14 +34,20 @@ def create_features(df):
     """
     Engineer calendar, lag, and rolling features from the sorted time series.
     
-    Calendar features capture deterministic seasonality (time-of-the-day, day-of-the-week, month, etc.). Lag and rolling features gives the model recent historical context without leaking future information - Lags are shifted by the lag length so every row only looks backward. The categorical wind direction 'cbwd' is one-hot encoded.
+    Calendar features capture deterministic seasonality (time-of-the-day, day-of-the-week,
+    month, etc.). Lag and rolling features gives the model recent historical context
+    without leaking future information - Lags are shifted by the lag length so every
+    row only looks backward. The categorical wind direction 'cbwd' is one-hot
+    encoded.
     
     Parameters
     ----------
-    df: pd.Dataframe with 'Datetime' (datetime64), 'pm2.5' (target) and the raw weather columns, sorted ascending by Datetime.
+    df: pd.Dataframe with 'Datetime' (datetime64), 'pm2.5' (target) and the raw
+        weather columns, sorted ascending by Datetime.
     
     Returns
     ----------
-    pd.dataframe with new feature columns; rows with NaN target or NaN lag/rolling warmup values are dropped.
+    pd.dataframe with new feature columns; rows with NaN target or NaN lag/rolling
+    warmup values are dropped.
     
     """
