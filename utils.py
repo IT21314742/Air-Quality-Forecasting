@@ -68,3 +68,4 @@ def create_features(df):
     df["lag_1"] = df["pm2.5"].shift(1)      # previous hour
     df["lag_2"] = df["pm2.5"].shift(24)     # same hour, 1 day ago
     
+    
