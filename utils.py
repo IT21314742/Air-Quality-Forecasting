@@ -52,4 +52,5 @@ def create_features(df):
     
     """
     
-    df = df.copy().sort_values("Datetime")
+    df = df.copy().sort_values("Datetime").reset_index(drop=True)
+    
