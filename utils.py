@@ -64,4 +64,4 @@ def create_features(df):
     df["dayofyear"] = df["Datetime"].dt.dayofyear
     df["is_weekend"] = (df["dayofweek"] >= 5).astype(int)
     
-    # Lag features - shift by lag length to avoid 
+    # Lag features - shift by lag length to avoid data leakage
