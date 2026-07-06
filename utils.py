@@ -69,4 +69,5 @@ def create_features(df):
     df["lag_2"] = df["pm2.5"].shift(24)     # same hour, 1 day ago
     
     # Rolling mean features - window ends 1 period before the current row
-    df["roll_24"] = df["pm2.5"]
+    df["roll_24"] = df["pm2.5"].shift(1).rolling(window=24).mean()
+    
