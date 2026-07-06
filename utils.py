@@ -98,4 +98,4 @@ def evaluate_model(name, y_true, y_pred):
         "MAPE": float(mean_absolute_percentage_error(y_true, y_pred)),
     }
     print(f"\n{'='*40}\n\{'='*40}")
-    for k, v in metrics.items
+    for k, v in metrics.items():
