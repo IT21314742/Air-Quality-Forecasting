@@ -80,3 +80,4 @@ def create_features(df):
     df[wind_cols] = df[wind_cols].astype(int)
 
     # Drop rows with missing target or lag/rolling warmup values
+    
