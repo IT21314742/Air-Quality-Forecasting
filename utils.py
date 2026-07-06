@@ -78,3 +78,5 @@ def create_features(df):
     df = pd.get_dummies(df, columns=["cbwd"], prefix="wind", drop_first=True)
     wind_cols = [c for c in df.columns if c.startswith("wind_")]
     df[wind_cols] = df[wind_cols].astype(int)
+
+    # Drop rows with missing target or lag/rolling warmup values
