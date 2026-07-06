@@ -103,3 +103,5 @@ def evaluate_model(name, y_true, y_pred):
         if k != "Model":
             print(f"    {k:6s}: {v:.4f}")
         return metrics
+
+def plot_predictions(y_true, y_pred, name, n=500):):
