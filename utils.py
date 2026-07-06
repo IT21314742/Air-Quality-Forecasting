@@ -88,4 +88,5 @@ def create_features(df):
 # Model Evaluation
 
 def evaluate_model(name, y_true, y_pred):
-    """Print and return a metrics dict:"""
+    """Print and return a metrics dict: R2, MAE, RMSE, MAPE."""
+    
