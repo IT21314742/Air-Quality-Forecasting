@@ -104,4 +104,6 @@ def evaluate_model(name, y_true, y_pred):
             print(f"    {k:6s}: {v:.4f}")
         return metrics
 
-def plot_predictions(y_true, y_pred, name, n=500):):
+def plot_predictions(y_true, y_pred, name, n=500):
+    """
+    """
