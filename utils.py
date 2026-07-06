@@ -91,5 +91,6 @@ def evaluate_model(name, y_true, y_pred):
     """Print and return a metrics dict: R2, MAE, RMSE, MAPE."""
     rmse = float(np.sqrt(mean_squared_error(y_true, y_pred)))
     metrics = {
+        "Model": name,
         
     }
