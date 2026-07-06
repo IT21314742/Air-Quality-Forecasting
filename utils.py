@@ -100,4 +100,4 @@ def evaluate_model(name, y_true, y_pred):
     print(f"\n{'='*40}\n\{'='*40}")
     for k, v in metrics.items():
         if k != "Model":
-            print(f"    {k:6s}")
+            print(f"    {k:6s}: {v:.4f}")
