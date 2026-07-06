@@ -80,4 +80,4 @@ def create_features(df):
     df[wind_cols] = df[wind_cols].astype(int)
 
     # Drop rows with missing target or lag/rolling warmup values
-    df = df.dropna(subset=["pm2.5", "lag_1", "lag_2", ])
+    df = df.dropna(subset=["pm2.5", "lag_1", "lag_24", "roll_24", ])
