@@ -95,5 +95,5 @@ def evaluate_model(name, y_true, y_pred):
         "MAE": float(mean_absolute_error(y_true, y_pred)),
         "RMSE": rmse,
         "R2": float(r2_score(y_true, y_pred)),
-        
+        "MAPE": float(mean_absolute_percentage_error(y_true, y_pred)),
     }
