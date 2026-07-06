@@ -73,4 +73,4 @@ def create_features(df):
     df["roll_168"] = df["pm2.5"].shift(1).rolling(window=168).mean()
     
     # One-hot encode wind direction (categorical), drop_first to avoid collinearity
-    df = pd.get_dummies
+    df = pd.get_dummies()
