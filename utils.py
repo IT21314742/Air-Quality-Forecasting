@@ -74,4 +74,4 @@ def create_features(df):
     
     # One-hot encode wind direction (categorical), drop_first to avoid collinearity
     df = pd.get_dummies(df, columns=["cbwd"], prefix="wind", drop_first=True)
-    wind_cols = [c for c in df.columns if c.]
+    wind_cols = [c for c in df.columns if c.startswith("wind_")]
