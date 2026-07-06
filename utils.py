@@ -71,3 +71,4 @@ def create_features(df):
     # Rolling mean features - window ends 1 period before the current row
     df["roll_24"] = df["pm2.5"].shift(1).rolling(window=24).mean()
     df["roll_168"] = df["pm2.5"].shift(1).rolling(window=168).mean()
+    
