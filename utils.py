@@ -97,3 +97,4 @@ def evaluate_model(name, y_true, y_pred):
         "R2": float(r2_score(y_true, y_pred)),
         "MAPE": float(mean_absolute_percentage_error(y_true, y_pred)),
     }
+    print(f"\n{'='*40}\n\)
