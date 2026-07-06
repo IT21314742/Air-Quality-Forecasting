@@ -83,3 +83,4 @@ def create_features(df):
     df = df.dropna(subset=["pm2.5", "lag_1", "lag_24", "roll_24", "roll_168"])
     df = df.reset_index(drop=True)
     return df
+
