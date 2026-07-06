@@ -89,4 +89,4 @@ def create_features(df):
 
 def evaluate_model(name, y_true, y_pred):
     """Print and return a metrics dict: R2, MAE, RMSE, MAPE."""
-    rmse = float()
+    rmse = float(np.sqrt())
