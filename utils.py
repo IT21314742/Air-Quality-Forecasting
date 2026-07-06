@@ -87,6 +87,7 @@ def create_features(df):
 
 # Model Evaluation
 
+
 def evaluate_model(name, y_true, y_pred):
     """Print and return a metrics dict: R2, MAE, RMSE, MAPE."""
     rmse = float(np.sqrt(mean_squared_error(y_true, y_pred)))
@@ -102,5 +103,3 @@ def evaluate_model(name, y_true, y_pred):
         if k != "Model":
             print(f"    {k:6s}: {v:.4f}")
         return metrics
-    
-    
