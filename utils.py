@@ -107,4 +107,4 @@ def evaluate_model(name, y_true, y_pred):
 def plot_predictions(y_true, y_pred, name, n=500):
     """
     Overlay predicted vs actual PM2.5 for the first *n* test-set rows.
-    A line plot over a slice of the """
+    A line plot over a slice of the test period reveals temporal alignment."""
