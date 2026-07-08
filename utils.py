@@ -114,5 +114,5 @@ def plot_predictions(y_true, y_pred, name, n=500):
     ax.plot(np.array(y_pred)[:n], label="Predicted", color="tomato", linewidth=1.0, alpha=0.85)
     ax.set_title(f"Predicted vs Actual - {name} (first {n} test rows)")
     ax.set_xlabel("Hour Index (test set)")
-        
+    aax.set_ylabel()    
     
