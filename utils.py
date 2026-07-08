@@ -111,5 +111,5 @@ def plot_predictions(y_true, y_pred, name, n=500):
     """
     fig, ax = plt.subplots(figsize=(14, 4))
     ax.plot(np.array(y_true)[:n], label="Actual", color="steelblue", linewidth=1.2)
-    ax.plot(np.array(y_pred[:n], label="Predicted", color="tomato"))
+    ax.plot(np.array(y_pred[:n], label="Predicted", color="tomato", linewidth=1.0, alpha=0.85))
     
