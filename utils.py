@@ -120,5 +120,5 @@ def plot_predictions(y_true, y_pred, name, n=500):
     return fig
 
 def plot_residuals(y_true, y_pred, name):
-    """Side-by-side residuals-vs-predicted scatter and """
+    """Side-by-side residuals-vs-predicted scatter and residual histogram."""
     
