@@ -115,4 +115,6 @@ def plot_predictions(y_true, y_pred, name, n=500):
     ax.set_title(f"Predicted vs Actual - {name} (first {n} test rows)")
     ax.set_xlabel("Hour Index (test set)")
     ax.set_ylabel("pm2.5 (µg/m³)")
+    ax.legend()
+    
     
