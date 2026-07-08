@@ -119,5 +119,5 @@ def plot_predictions(y_true, y_pred, name, n=500):
     plt.tight_layout()
     return fig
 
-def plot_residuals()
+def plot_residuals(y_true, y_pred, name):)
     
