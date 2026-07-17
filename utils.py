@@ -122,5 +122,6 @@ def plot_predictions(y_true, y_pred, name, n=500):
 def plot_residuals(y_true, y_pred, name):
     """Side-by-side residuals-vs-predicted scatter and residual histogram."""
     fig, axes = plt.subplots(1,2, figsize=(13,14))
-                                                                
+    residuals = np.array(y_true) - np.array(y_pred)
+                                                              
     
