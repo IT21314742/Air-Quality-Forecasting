@@ -126,7 +126,8 @@ def plot_residuals(y_true, y_pred, name):
     axes[0].scatter(np.array(y_pred), residuals, alpha=0.3, s=8, color="steelblue")
     axes[0].axhline(0, color="red", linestyle="--")
     axes[0].set_xlabel("Predicted pm2.5 (µg/m³)")
-    axes[0].setylabel()
+    axes[0].setylabel("Residuals vs Predicted - {name}")
+    
 
 
 
