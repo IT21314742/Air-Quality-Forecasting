@@ -124,8 +124,7 @@ def plot_residuals(y_true, y_pred, name):
     fig, axes = plt.subplots(1,2, figsize=(13,14))
     residuals = np.array(y_true) - np.array(y_pred)
     axes[0].scatter(np.array(y_pred), residuals, alpha=0.3, s=8, color="steelblue")
-    axes[0].axhline(0, color="red", linestyle="--")
-                                                        
+    axes[0].axhline(0, color="red", linestyle="--")                                                    
 
 
 
