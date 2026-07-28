@@ -138,7 +138,7 @@ def cross_validate_model(model, X, y, cv=5):
     Time-series aware cross-validation using sklearn's TimeSeriesSplit.
     returns array of R2 scores for each fold.
     """
-    tscv = TimeSeriesSplit()
+    tscv = TimeSeriesSplit(n_splits=cv)
     
     
 
