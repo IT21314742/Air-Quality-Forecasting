@@ -135,7 +135,7 @@ def plot_residuals(y_true, y_pred, name):
 
 def cross_validate_model(model, X, y, cv=5):
     """
-    Time-series aware cross-validation """
+    Time-series aware cross-validation using sklearn's TimeSeriesPlit."""
     
     
 
