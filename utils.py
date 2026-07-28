@@ -139,7 +139,7 @@ def cross_validate_model(model, X, y, cv=5):
     returns array of R2 scores for each fold.
     """
     tscv = TimeSeriesSplit(n_splits=cv)
-    scores = cross_val_score()
+    scores = cross_val_score(model, X, y, )
     
     
 
