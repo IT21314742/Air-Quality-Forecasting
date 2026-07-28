@@ -140,7 +140,7 @@ def cross_validate_model(model, X, y, cv=5):
     """
     tscv = TimeSeriesSplit(n_splits=cv)
     scores = cross_val_score(model, X, y, cv=tscv,  scoring="r2")
-    print()
+    print(f"")
     
     
 
