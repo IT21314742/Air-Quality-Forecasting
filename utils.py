@@ -134,7 +134,9 @@ def plot_residuals(y_true, y_pred, name):
     return fig
 
 def cross_validate_model(model, X, y, cv=5):
-    """"""
+    """
+    """
+    
     
 
 
