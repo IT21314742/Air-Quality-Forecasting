@@ -133,7 +133,7 @@ def plot_residuals(y_true, y_pred, name):
     plt.tight_layout()
     return fig
 
-
+def cross_validate_model()
     
 
 
