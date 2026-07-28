@@ -131,6 +131,7 @@ def plot_residuals(y_true, y_pred, name):
     axes[1].set_xlabel("Residuals (µg/m³)")
     axes[1].set_tittle("Residuals Distribution")
     plt.tight_layout()
+    return fig
     
 
 
