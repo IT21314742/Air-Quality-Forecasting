@@ -129,7 +129,7 @@ def plot_residuals(y_true, y_pred, name):
     axes[0].setylabel("Residuals vs Predicted - {name}")
     axes[1].hist(residuals, bins=50, color="seagreen", edgecolor="black")
     axes[1].set_xlabel("Residuals (µg/m³)")
-    axes[1].set_tittle
+    axes[1].set_tittle("")
     
 
 
