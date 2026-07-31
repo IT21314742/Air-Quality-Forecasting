@@ -143,5 +143,5 @@ def cross_validate_model(model, X, y, cv=5):
     print(f" CV R2 scores: {scores.round(4)}")
 
 
-    
+        
 
